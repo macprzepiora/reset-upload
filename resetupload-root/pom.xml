@@ -6,7 +6,7 @@
 	<artifactId>resetupload-root</artifactId>
 	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MyComponent Add-on Root Project</name>
+	<name>ResetUpload Add-on Root Project</name>
 
 	<modules>
 		<module>resetupload</module>
@@ -14,20 +14,20 @@
 	</modules>
 
 
-<!-- 	<organization>
-		<name>My Name</name>
+ 	<organization>
+		<name>Vaadin Ltd</name>
 		<url>https://github.com/pmatti/resetupload/</url>
 	</organization>
 	<scm>
 		<url>git://github.com/pmatti/MyComponent.git</url>
-		<connection>scm:git:git://github.com/mygithubaccount/MyComponent.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:/mygithubaccount/${ComponentClassName}.git</developerConnection>
-		<tag>MyComponent add-on for Vaadin</tag>
+		<connection>scm:git:git://github.com:pmatti/reset-upload.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:pmatti/reset-upload.git</developerConnection>
+		<tag>ResetUpload add-on for Vaadin</tag>
 	</scm>
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/mygithubaccount/MyComponent/issues</url>
-	</issueManagement> -->
+		<url>https://github.com/pmatti/reset-upload/issues</url>
+	</issueManagement>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
