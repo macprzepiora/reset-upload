@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>resetupload-demo</artifactId>
 	<packaging>war</packaging>
-	<name>MyComponent Add-on Demo</name>
+	<name>ResetUpload Add-on Demo</name>
 
 	<parent>
 		<groupId>org.vaadin.addon.mac</groupId>

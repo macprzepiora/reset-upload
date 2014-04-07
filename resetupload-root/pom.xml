@@ -21,7 +21,7 @@
 	<scm>
 		<url>git://github.com/pmatti/MyComponent.git</url>
 		<connection>scm:git:git://github.com:pmatti/reset-upload.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:pmatti/reset-upload.git</developerConnection>
+		<developerConnection>scm:git:ssh://git@github.com/pmatti/reset-upload.git</developerConnection>
 		<tag>ResetUpload add-on for Vaadin</tag>
 	</scm>
 	<issueManagement>
