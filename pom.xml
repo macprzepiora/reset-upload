@@ -15,17 +15,17 @@
 
  	<organization>
 		<name>Vaadin Ltd</name>
-		<url>https://github.com/pmatti/resetupload/</url>
+		<url>https://github.com/macprzepiora/resetupload/</url>
 	</organization>
 	<scm>
-		<url>git://github.com/pmatti/MyComponent.git</url>
-		<connection>scm:git:git://github.com:pmatti/reset-upload.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/pmatti/reset-upload.git</developerConnection>
+		<url>git://github.com/macprzepiora/MyComponent.git</url>
+		<connection>scm:git:git://github.com:macprzepiora/reset-upload.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/macprzepiora/reset-upload.git</developerConnection>
 		<tag>ResetUpload add-on for Vaadin</tag>
 	</scm>
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/pmatti/reset-upload/issues</url>
+		<url>https://github.com/macprzepiora/reset-upload/issues</url>
 	</issueManagement>
 
 	<properties>
@@ -98,7 +98,7 @@
 				<version>3.0.1</version>
 			</dependency>
 
-			<!-- This can be replaced with TestNG or some other test framework supported 
+			<!-- This can be replaced with TestNG or some other test framework supported
 				by the surefire plugin -->
 			<dependency>
 				<groupId>junit</groupId>

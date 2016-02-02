@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.vaadin.addon.mac</groupId>
 	<artifactId>resetupload-demo</artifactId>
 	<packaging>war</packaging>
+	<version>0.0.3-SNAPSHOT</version>
 	<name>ResetUpload Add-on Demo</name>
-
-	<parent>
-		<groupId>org.vaadin.addon.mac</groupId>
-		<artifactId>resetupload-root</artifactId>
-		<version>0.0.3-SNAPSHOT</version>
-		<relativePath>../pom.xml</relativePath>
-	</parent>
-
-	<!-- -->
-
 	<licenses>
 		<license>
 			<name>Apache 2</name>
@@ -22,31 +14,39 @@
 		</license>
 	</licenses>
 
-
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<vaadin.version>7.6.1</vaadin.version>
+		<vaadin.plugin.version>7.6.1</vaadin.plugin.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.vaadin.addon.mac</groupId>
 			<artifactId>resetupload</artifactId>
-			<version>${version}</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-push</artifactId>
+			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-client-compiler</artifactId>
+			<version>${vaadin.version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-themes</artifactId>
+			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<scope>provided</scope>
+			<version>3.0.1</version>
 		</dependency>
 	</dependencies>
 
@@ -138,7 +138,7 @@
 
 		<pluginManagement>
 			<plugins>
-				<!--This plugin's configuration is used to store Eclipse m2e settings 
+				<!--This plugin's configuration is used to store Eclipse m2e settings
 					only. It has no influence on the Maven build itself. -->
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
