@@ -4,7 +4,7 @@
 	<groupId>org.vaadin.addon.mac</groupId>
 	<artifactId>resetupload-root</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.3</version>
+	<version>0.1-SNAPSHOT</version>
 	<name>ResetUpload Add-on Root Project</name>
 
 	<modules>
@@ -21,7 +21,7 @@
 		<url>git://github.com/macprzepiora/MyComponent.git</url>
 		<connection>scm:git:git://github.com:macprzepiora/reset-upload.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/macprzepiora/reset-upload.git</developerConnection>
-		<tag>resetupload-root-0.0.3</tag>
+		<tag>ResetUpload add-on for Vaadin</tag>
 	</scm>
 	<issueManagement>
 		<system>GitHub</system>
