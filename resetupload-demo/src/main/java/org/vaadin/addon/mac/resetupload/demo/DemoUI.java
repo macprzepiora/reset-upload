@@ -16,7 +16,7 @@ import com.vaadin.ui.UI;
 import com.vaadin.ui.Upload;
 import com.vaadin.ui.VerticalLayout;
 
-@Theme("demo")
+@Theme("valo")
 @Title("MyComponent Add-on Demo")
 @SuppressWarnings("serial")
 public class DemoUI extends UI
@@ -34,18 +34,18 @@ public class DemoUI extends UI
     	Upload upload1 = new Upload();
     	final ResetUploadExtension extension = new ResetUploadExtension(upload1);
     	Button resetButton = new Button("Reset", new ClickListener() {
-			
+
 			@Override
 			public void buttonClick(ClickEvent event) {
 				extension.resetUpload();
 			}
 		});
     	Upload upload2 = new Upload();
-    	
+
         // Show it in the middle of the screen
         final VerticalLayout layout = new VerticalLayout();
         layout.setSizeFull();
-        
+
         layout.addComponents(upload1, resetButton, upload2);
         setContent(layout);
 
